@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="65421c519bfc4e8aaba597428ee10a71" Name="Diagram1">
+        <EntityTypeShape EntityType="SchoolDBModel.book" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.ClassLevel" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.course" Width="1.5" PointX="5.25" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.news" Width="1.5" PointX="5.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.parent" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.staff" Width="1.5" PointX="3" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.std_Crs" Width="1.5" PointX="7.5" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.student" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.StudentLevel" Width="1.5" PointX="7.5" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.sysdiagram" Width="1.5" PointX="9.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.tbl_absence" Width="1.5" PointX="7.5" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.tbl_role" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.tbl_Task" Width="1.5" PointX="7.5" PointY="9.375" IsExpanded="true" />
+        <AssociationConnector Association="SchoolDBModel.FK__course__levelID__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolDBModel.FK__course__staffId__25869641" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolDBModel.FK_StudentLevel_ClassLevel" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolDBModel.FK_tbl_Task_ClassLevel" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolDBModel.FK__std_Crs__CrsId__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolDBModel.FK__news__adminId__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolDBModel.FK__student__ParentI__164452B1" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolDBModel.FK_parent_tbl_role" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolDBModel.FK__staff__RoleId__1A14E395" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolDBModel.FK__std_Crs__stdId__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolDBModel.FK_student_tbl_role" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolDBModel.FK_StudentLevel_student1" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolDBModel.FK_tbl_absence_student" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

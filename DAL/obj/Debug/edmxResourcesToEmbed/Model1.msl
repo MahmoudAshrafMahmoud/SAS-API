@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SchoolDBModelStoreContainer" CdmEntityContainer="SchoolDBEntities">
+    <EntitySetMapping Name="books">
+      <EntityTypeMapping TypeName="SchoolDBModel.book">
+        <MappingFragment StoreEntitySet="book">
+          <ScalarProperty Name="bookID" ColumnName="bookID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ATitle" ColumnName="ATitle" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="link" ColumnName="link" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClassLevels">
+      <EntityTypeMapping TypeName="SchoolDBModel.ClassLevel">
+        <MappingFragment StoreEntitySet="ClassLevel">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="levelName" ColumnName="levelName" />
+          <ScalarProperty Name="levelAName" ColumnName="levelAName" />
+          <ScalarProperty Name="fees" ColumnName="fees" />
+          <ScalarProperty Name="scheduleFile" ColumnName="scheduleFile" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="courses">
+      <EntityTypeMapping TypeName="SchoolDBModel.course">
+        <MappingFragment StoreEntitySet="course">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="crs_Name" ColumnName="crs_Name" />
+          <ScalarProperty Name="crs_AName" ColumnName="crs_AName" />
+          <ScalarProperty Name="levelID" ColumnName="levelID" />
+          <ScalarProperty Name="staffId" ColumnName="staffId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="news">
+      <EntityTypeMapping TypeName="SchoolDBModel.news">
+        <MappingFragment StoreEntitySet="news">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ATitle" ColumnName="ATitle" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="AContent" ColumnName="AContent" />
+          <ScalarProperty Name="NewsDate" ColumnName="NewsDate" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="adminId" ColumnName="adminId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="parents">
+      <EntityTypeMapping TypeName="SchoolDBModel.parent">
+        <MappingFragment StoreEntitySet="parent">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="fname" ColumnName="fname" />
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="Afname" ColumnName="Afname" />
+          <ScalarProperty Name="Alname" ColumnName="Alname" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="Img" ColumnName="Img" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="roleID" ColumnName="roleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="staffs">
+      <EntityTypeMapping TypeName="SchoolDBModel.staff">
+        <MappingFragment StoreEntitySet="staff">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="fname" ColumnName="fname" />
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="Afname" ColumnName="Afname" />
+          <ScalarProperty Name="Alname" ColumnName="Alname" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="JoinDate" ColumnName="JoinDate" />
+          <ScalarProperty Name="FiredDate" ColumnName="FiredDate" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="Img" ColumnName="Img" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="std_Crs">
+      <EntityTypeMapping TypeName="SchoolDBModel.std_Crs">
+        <MappingFragment StoreEntitySet="std_Crs">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="stdId" ColumnName="stdId" />
+          <ScalarProperty Name="CrsId" ColumnName="CrsId" />
+          <ScalarProperty Name="grade" ColumnName="grade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="students">
+      <EntityTypeMapping TypeName="SchoolDBModel.student">
+        <MappingFragment StoreEntitySet="student">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="fname" ColumnName="fname" />
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="Afname" ColumnName="Afname" />
+          <ScalarProperty Name="Alname" ColumnName="Alname" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="JoinDate" ColumnName="JoinDate" />
+          <ScalarProperty Name="FiredDate" ColumnName="FiredDate" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="levelId" ColumnName="levelId" />
+          <ScalarProperty Name="Img" ColumnName="Img" />
+          <ScalarProperty Name="classRoom" ColumnName="classRoom" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="roleID" ColumnName="roleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentLevels">
+      <EntityTypeMapping TypeName="SchoolDBModel.StudentLevel">
+        <MappingFragment StoreEntitySet="StudentLevel">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="levelId" ColumnName="levelId" />
+          <ScalarProperty Name="stdId" ColumnName="stdId" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="paid" ColumnName="paid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="SchoolDBModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_absence">
+      <EntityTypeMapping TypeName="SchoolDBModel.tbl_absence">
+        <MappingFragment StoreEntitySet="tbl_absence">
+          <ScalarProperty Name="stdId" ColumnName="stdId" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="absenceDate" ColumnName="absenceDate" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_role">
+      <EntityTypeMapping TypeName="SchoolDBModel.tbl_role">
+        <MappingFragment StoreEntitySet="tbl_role">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="RuleName" ColumnName="RuleName" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Task">
+      <EntityTypeMapping TypeName="SchoolDBModel.tbl_Task">
+        <MappingFragment StoreEntitySet="tbl_Task">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="taskName" ColumnName="taskName" />
+          <ScalarProperty Name="levelId" ColumnName="levelId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

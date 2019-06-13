@@ -1,0 +1,12 @@
+F:\my work\project\rayan\ahmed\FinalProjectITI\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+F:\my work\project\rayan\ahmed\FinalProjectITI\BL\bin\Debug\BL.dll.config
+F:\my work\project\rayan\ahmed\FinalProjectITI\BL\bin\Debug\BL.dll
+F:\my work\project\rayan\ahmed\FinalProjectITI\BL\bin\Debug\BL.pdb
+F:\my work\project\rayan\ahmed\FinalProjectITI\BL\bin\Debug\DAL.dll
+F:\my work\project\rayan\ahmed\FinalProjectITI\BL\bin\Debug\EntityFramework.dll
+F:\my work\project\rayan\ahmed\FinalProjectITI\BL\bin\Debug\EntityFramework.SqlServer.dll
+F:\my work\project\rayan\ahmed\FinalProjectITI\BL\bin\Debug\DAL.pdb
+F:\my work\project\rayan\ahmed\FinalProjectITI\BL\bin\Debug\EntityFramework.xml
+F:\my work\project\rayan\ahmed\FinalProjectITI\BL\bin\Debug\EntityFramework.SqlServer.xml
+F:\my work\project\rayan\ahmed\FinalProjectITI\BL\obj\Debug\BL.dll
+F:\my work\project\rayan\ahmed\FinalProjectITI\BL\obj\Debug\BL.pdb
